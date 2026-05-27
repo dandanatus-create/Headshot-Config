@@ -1,0 +1,15 @@
+(?<=Headlook_\w+\s*=\s*)\d+\.?\d*
+Headlook_\w+=\d+\.?\d*
+
+Headlook_\w+\s*=\s*\d+\.?\d*
+
+
+Headlook_Enable = 1
+Headlook_Power = 999
+Headlook_Speed = 950
+Headlook_Angle = 45
+Headlook_Radius = 70
+Headlook_Up_Only = 1
+Headlook_Anti_Over = 1
+Headlook_Strong_Pull = 1
+Headlook_Correct = 1
