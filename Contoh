@@ -1,0 +1,53 @@
+(Aimlock|Headlook)_\w+\s*=\s*\d+\.?\d*
+Aimlock_Power = 94
+Aimlock_Smooth = 72
+Headlook_Power = 98
+Headlook_Speed = 93
+(?<=(Aimlock|Headlook)_\w+\s*=\s*)\d+\.?\d*
+# Cari:
+(Aimlock|Headlook)_Power\s*=\s*\d+\.?\d*
+
+# Ganti jadi:
+\1_Power = 98
+# Cari:
+(Aimlock|Headlook)_Speed\s*=\s*\d+\.?\d*
+
+# Ganti jadi:
+\1_Speed = 90
+^.*(Aimlock|Headlook).*$
+# CARI SEMUA BARIS AIMLOCK & HEADLOCK:
+(Aimlock|Headlook)_\w+\s*=\s*\d+\.?\d*
+
+# GANTI SEMUA JADI INI (Salin semua baris di bawah ini):
+Aimlock_Enable = 1
+Aimlock_Power = 94
+Aimlock_Smooth = 72
+Aimlock_Radius = 55
+Aimlock_Angle = 30
+Aimlock_Priority = HEAD
+Aimlock_Only_Enemy = 1
+Aimlock_Through_Wall = 0
+Aimlock_Delay = 5
+Headlook_Enable = 1
+Headlook_Power = 98
+Headlook_Speed = 93
+Headlook_Angle = 25
+Headlook_Radius = 48
+Headlook_Up_Only = 1
+Headlook_Anti_Over = 1
+# AIMLOCK + HARD HEADLOCK 💀
+Aimlock_Enable = 1
+Aimlock_Power = 88–92    # ⚠️ JANGAN 100! Nanti kaku banget
+Aimlock_Smooth = 65–70   # ⚠️ KUNCI: biar gerak mulus, gak liar
+Aimlock_Radius = 45–52   # Jarak kunci — gak terlalu jauh, gak dekat
+Aimlock_Priority = HEAD  # ⚠️ WAJIB: langsung kunci kepala
+Aimlock_Only_Enemy = 1   # Gak kunci teman
+Aimlock_Wall = 0         # ❌ JANGAN NYALAIN — langsung ketahuan
+Headlook_Power=97
+Headlook_Speed=90
+Headlook_Angle=20
+# HARD HEADLOCK 💀
+Headlook_Power = 96–100    # ⚠️ MAKSIMAL KEKUATAN
+Headlook_Speed = 92–100    # ⚠️ SEKETIKA NAIK KE KEPALA
+Headlook_Angle = 22–28      # Sudut lebar, ikuti semua gerak
+Headlook_Radius = 50–60     # Jarak jauh, cari kepala meski lari
