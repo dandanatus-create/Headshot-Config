@@ -1,0 +1,44 @@
+# ==============================================
+# 🔥 AIMBOT HEAD MASTER + HARD HEADLOCK 999 🔥
+# ✨ FUNGSI: CARI KEPALA SENDIRI + TARIK KENCANG
+# ==============================================
+
+# 🔒 AIMBOT HEAD (SISTEM PENCARI & KUNCI)
+Aimbot_Enable = 1                 # NYALA FITURNYA
+Aimbot_Priority = HEAD            # ⚠️ WAJIB: HANYA CARI KEPALA
+Aimbot_Only_Enemy = 1             # GAK KUNCI TEMAN
+Aimbot_FOV = 65                   # 📡 JANGKAUAN CARI (60-70 = IDEAL)
+Aimbot_Smooth = 30                # ✨ HALUS GERAKAN (JANGAN 0! NANTI KETAHUAN)
+Aimbot_Speed = 750                # ⚡ KECEPATAN KUNCI (JANGAN 999! BIAR HEADLOCK KERJA)
+Aimbot_Delay = 2                  # ⏱️ JEDA SEDIKIT BIAR KELIHATAN MANUSIA
+Aimbot_Anti_Shake = 1             # ✅ ANTI GOYANG
+Aimbot_Through_Wall = 0           # ❌ JANGAN NYALAIN = BAN
+Aimbot_Auto_Shot = 0              # ❌ JANGAN NYALAIN = ROBOT
+Aimbot_Radius = 50                # Jarak ambil target
+
+# 🧲 HARD HEADLOCK (PENARIK KENCANG - INTI KEKUATAN)
+Headlook_Enable = 1
+Headlook_Power = 999              # 💀 KEKUATAN PENUH
+Headlook_Speed = 950              # ⚡ TARIKAN SEKETIKA
+Headlook_Angle = 45               # 🔄 IKUTI SEMUA GERAKAN
+Headlook_Radius = 70              # 📏 JANGKAUAN LUAS
+Headlook_Up_Only = 2              # ⬆️ LURUS + KUNCI KEPALA
+Headlook_Anti_Over = 2            # 🛑 REM KENCANG - ANTI LEWAT 100%
+Headlook_Strong_Pull = 1          # 💪 TEMBUS PAKSA SEMUA HALANGAN
+Headlook_Correct = 1               # ✨ PERBAIKI POSISI OTOMATIS
+
+# 🎯 SNIPER MAGIC BULLET (PELURU AJAIB) 🔥
+Sniper_Magic_Bullet = 1           # ✅ PASTI TEMBUS KEPALA
+Sniper_Only_Head = 2              # ✅ HANYA KEPALA
+Sniper_Power = 900
+Sniper_Speed = 850
+
+# 🛡️ ANTI GETAR & STABILITAS (DIAM TOTAL)
+RecoilUp = 0.00
+RecoilRight = 0.00
+RecoilLeft = 0.00
+RecoilRecovery = 1.00
+Spread = 0.00
+Accuracy = 100
+Stability = 100
+ScopeShake = 0.00
