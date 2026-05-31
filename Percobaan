@@ -1,0 +1,45 @@
+(Medium_Headlock|Headlock_Power|Headlock_Speed|Headlock_Smooth|Headlock_Angle|Headlock_Up_Only|Headlock_Anti_Over|Headlock_Correction|Accuracy|Spread|Bullet_Drop|Stability|Precision|Perfect_Shot|No_Spread|Bullet_Correction|Stabilizer_Sensitivity|Stabilizer_Force|Stabilizer_Mode|Recoil_Enable|Recoil_Up|Recoil_Right|Recoil_Left|Recoil_Strength|Aim_Related|Aim_Enable|Aim_Power|Aim_Speed|Aim_Smooth|Aim_Angle|Aim_Only_Enemy|Aim_Anti_Shake|General|Red_Dot|Scope_2x|Scope_4x|Scope_Sniper|DPI|Fire_Size)\s*=\s*\d+\.?\d*
+Medium_Headlock = 1
+Headlock_Power = 420
+Headlock_Speed = 360
+Headlock_Smooth = 52
+Headlock_Angle = 26
+Headlock_Up_Only = 1
+Headlock_Anti_Over = 1
+Headlock_Correction = 1
+
+Accuracy = 100
+Spread = 0.00
+Bullet_Drop = 0.00
+Stability = 100
+Precision = 100
+Perfect_Shot = 1
+No_Spread = 1
+Bullet_Correction = 1
+
+Stabilizer_Sensitivity = 48
+Stabilizer_Force = 1
+Stabilizer_Mode = 1
+
+Recoil_Enable = 1
+Recoil_Up = 0.00
+Recoil_Right = 0.00
+Recoil_Left = 0.00
+Recoil_Strength = 100
+
+Aim_Related = 1
+Aim_Enable = 1
+Aim_Power = 700
+Aim_Speed = 550
+Aim_Smooth = 40
+Aim_Angle = 28
+Aim_Only_Enemy = 1
+Aim_Anti_Shake = 1
+
+General = 98
+Red_Dot = 94
+Scope_2x = 88
+Scope_4x = 82
+Scope_Sniper = 56
+DPI = 460
+Fire_Size = 45
