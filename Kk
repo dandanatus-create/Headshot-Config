@@ -1,0 +1,20 @@
+# Match any parameter assignment
+^(\w+)\s*=\s*(.+)$
+
+# Match only numeric values
+^(\w+)\s*=\s*(\d+(?:\.\d+)?)$
+
+# Match headlock-related parameters
+^(Headlock_\w+)\s*=\s*(.+)$
+
+# Match scope-related parameters
+^(Scope_\w+)\s*=\s*(\d+)$
+
+# Match parameters with value 1 or 0 (boolean flags)
+^(\w+)\s*=\s*[01]$
+
+# Extract parameter name and decimal values
+^(\w+)\s*=\s*(\d+\.\d+)$
+
+# Match aim-related settings
+^(Aim_\w+)\s*=\s*(.+)$
